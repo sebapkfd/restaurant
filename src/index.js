@@ -1,12 +1,5 @@
-import renderAbout from './about'
-import renderContact from './contact'
-import renderMenu from './menu'
+import renderHome from './home'
+import createNavbar from './navbar'
 
-renderAbout();
-// renderContact();
-// renderMenu();
-
-
-
-
-console.log('xdddd');
+createNavbar();
+renderHome();

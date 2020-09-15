@@ -12,17 +12,17 @@ function renderTitle(){
 function renderInfo(){
     let infoDiv = document.createElement('div');
     let h2 = document.createElement('h2');
-    h2.textContent = 'This is the Contact Us page!'
+    h2.textContent = 'This is the Home page!'
 
     infoDiv.appendChild(h2);
     divContent.appendChild(infoDiv);
 }
 
 
-const renderContact = () =>{
+const renderHome = () =>{
     renderTitle();
     renderInfo();
     return divContent;
 }
 
-export default renderContact
+export default renderHome

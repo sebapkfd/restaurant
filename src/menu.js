@@ -12,7 +12,7 @@ function renderTitle(){
 function renderInfo(){
     let infoDiv = document.createElement('div');
     let h2 = document.createElement('h2');
-    h2.textContent = 'This de Menu page!'
+    h2.textContent = 'This is the Menu page!'
 
     infoDiv.appendChild(h2);
     divContent.appendChild(infoDiv);
