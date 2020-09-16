@@ -7,6 +7,8 @@ const { default: renderMenu } = require("./menu");
 const divContent = document.querySelector('#content');
 
 const createNavbar = () =>{
+    let barDiv = document.createElement('div');
+
     let homeButton = document.createElement('button');
     homeButton.textContent = 'Home';
     homeButton.addEventListener('click', () => {
